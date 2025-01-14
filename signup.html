@@ -14,6 +14,52 @@
         box-sizing: border-box;
         box-shadow: 5px 3px 5px 3px rgb(0, 0, 0);
         }
+        body{
+            display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-image:url(https://images.pexels.com/photos/2088210/pexels-photo-2088210.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        background-size: cover;
+        }
+        .form-title{
+        text-align: center;
+        font-family:Arial, Helvetica, sans-serif;
+        margin: 30px 0px;
+        }
+        .text-input{
+        display: block;
+        width: 100%;
+        padding: 5px;
+        border: 1px solid #aaa;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        box-sizing: border-box;
+        }
+        .btn{
+        display: block;
+        width: 100%;
+        margin-top: 2px;
+        background-color: rgb(22, 8, 229);
+        color: rgb(255, 255, 255);
+        border: none;
+        padding: 10px;
+        border-radius: 50px;
+        cursor: pointer;
+     }
+     .link{
+        color: rgb(16, 8, 235);
+        text-decoration: none;
+        font-size: 0.8em;
+        font-weight: bold
+     }
+     .registered-link{
+        display: block;
+        margin-top: 20px;
+        text-align: center;
+     }
+
+
     </style>
 </head>
 <body>
@@ -21,18 +67,28 @@
         <h3 class="form-title">Sign-up to proceed</h3>
         <form>
             <label for="name">Name</label>
-            <input type="text" id="name" placeholder="enter full name" required>
+            <input type="text" class="text-input" id="name" placeholder="enter full name" required>
             <label for="phone">Contact no.</label>
-            <input type="number" id="phone" placeholder="enter 10 digit number" required minlength="10">
+            <input type="text" class="text-input" id="phone" placeholder="enter 10 digit number" required minlength="10">
             <label for="email">Email</label>
-            <input type="email" id="email" placeholder="enter valid mail" required>
+            <input type="email" class="text-input" id="email" placeholder="enter valid mail" required>
+            <label for="email">username</label>
+            <input type="text" class="text-input" id="username" placeholder="your username" required>
             <label for="pswd">Enter Password</label>
-            <input type="password" id="pswd" placeholder="enter strong password" required>
+            <input type="password" class="text-input" id="pswd" placeholder="enter strong password" required>
             <label for="pswd">Email</label>
-            <input type="password" id="pswd" placeholder="re-enter your password" required>
-            <p>By creating account you agree to our <a href="#">Terms and Conditions</a></p>
+            <input type="password" class="text-input" id="pswd" placeholder="re-enter your password" required>
+            <p>By creating account you agree to our <a href="#" class="link">Terms and Conditions</a></p>
+            <details>
+                <summary>Terms and Conditions</summary>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit dolor veritatis sed velit excepturi, cumque porro doloremque error quis ut ullam sequi fugiat voluptatibus voluptatum atque deleniti voluptas quo repellat.</p>
+            </details>
+            <br>
+            <label for="t&c">Terms and Conditions</label>
+            <input type="checkbox" id="t&c">
+            
             <button type="submit" class="btn">Create Account</button>
-            <a href="#" class="link">Add Another Account</a>
+            <a href="#" class="link registered-link">Add Another Account</a>
         </form>
 
 
