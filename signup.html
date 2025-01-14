@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup-page</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <style>
+        .card{
+            border: 2px solid black;
+        width: 20%;
+        border-radius: 20px;
+        padding: 30px;
+        box-sizing: border-box;
+        box-shadow: 5px 3px 5px 3px rgb(0, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h3 class="form-title">Sign-up to proceed</h3>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="enter full name" required>
+            <label for="phone">Contact no.</label>
+            <input type="number" id="phone" placeholder="enter 10 digit number" required minlength="10">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="enter valid mail" required>
+            <label for="pswd">Enter Password</label>
+            <input type="password" id="pswd" placeholder="enter strong password" required>
+            <label for="pswd">Email</label>
+            <input type="password" id="pswd" placeholder="re-enter your password" required>
+            <p>By creating account you agree to our <a href="#">Terms and Conditions</a></p>
+            <button type="submit" class="btn">Create Account</button>
+            <a href="#" class="link">Add Another Account</a>
+        </form>
+
+
+
+    </div>
+</body>
+</html>
