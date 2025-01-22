@@ -1,44 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>landing-page</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
- <body class="">
+
+<body class="">
     <header>
 
     </header>
-   <main>
-    <article>
-        <section class="bg-blue-200 min-h-[60vh]" >
-            <div class=" max-w[80%] mx-auto h-full py-8 md:py-0"></div>
-            <div class="grid  grid-cols-1 md:grid-cols-2 h-full">
-                <div class="  space-y-4 my-auto text-center md:text-left">
-                    <h1 class=" text-4xl font-bold">MY WEBSITE TITLE</h1>
-                    <p class="text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut odio fugit molestias dolorum repellat! Quia quis consequatur, nemo atque facilis cumque consectetur aperiam velit eveniet tempore, ab impedit maxime veniam?</p>    
+    <main>
+        <article>
+            <section class="bg-blue-200 min-h-[60vh]">
+                <div class=" max-w-[80%] mx-auto h-full py-8 md:py-0"></div>
+                <div class="grid  grid-cols-1 md:grid-cols-2 h-full">
+                    <div class="  space-y-4 my-auto text-center md:text-left">
+                        <h1 class=" text-4xl font-bold">MY WEBSITE TITLE</h1>
+                        <p class="text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut odio fugit
+                            molestias dolorum repellat! Quia quis consequatur, nemo atque facilis cumque consectetur
+                            aperiam velit eveniet tempore, ab impedit maxime veniam?</p>
                         <div class="flex gap-4 justify-center md:justify-start">
                             <button class="px-3 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">PRIMARY</button>
                             <button class="px-3 py-2 border-2 border-blue-500 text-blue rounded  ">secondary</button>
-                            <BUtton class=""></BUtton>
                         </div>
 
+                    </div>
+                    <div class="my-auto order-first md:order-last">
+                        <img class="block mx-auto "
+                            src="https://cdn3d.iconscout.com/3d/premium/thumb/dashboard-design-3d-illustration-download-in-png-blend-fbx-gltf-file-formats--developer-building-website-development-pack-illustrations-4971242.png?f=webp"
+                            alt="">
+                    </div>
+
                 </div>
-                <div class="my-auto order-first md:order-last">
-                    <img class="block mx-auto " src="https://cdn3d.iconscout.com/3d/premium/thumb/dashboard-design-3d-illustration-download-in-png-blend-fbx-gltf-file-formats--developer-building-website-development-pack-illustrations-4971242.png?f=webp" alt="">
+
+            </section>
+        </article>
+        <article>
+            <section>
+                <div class="md:max-w-[80%] mx-auto">
+                    <h2 class="text-center font-bold my-8 text-3xl">Our Features</h2>
+                    <div class=" border-2 border-red-500 grid md;grid-cols-1 grid-cols-3 gap-6">
+                        <div class="border-2 text-center py-6 px-8 rounded-lg shadow-lg">
+                            <i class="fa-solid fa-rocket text-4xl" ></i>
+                            <h3 class="text-2xl font-bold my-3">Feature 1</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus odio tempore assumenda blanditiis magni. Neque quae suscipit omnis culpa eos tempora, qui aperiam non officia nobis ut vel, fuga ratione.</p>
+                            <button class="bg-violet-500 px-3 py-5 rounded text-white mt-3 w-full">More Info</button>
+
+                        </div>
+                        <div class="border-2 text-center py-6 px-8 rounded-lg shadow-lg">
+                            <i class="fa-solid fa-rocket text-4xl" ></i>
+                            <h3 class="text-2xl font-bold my-3">Feature 1</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus odio tempore assumenda blanditiis magni. Neque quae suscipit omnis culpa eos tempora, qui aperiam non officia nobis ut vel, fuga ratione.</p>
+                            <button class="bg-violet-500 px-3 py-5 rounded text-white mt-3 w-full">More Info</button>
+
+                        </div>
+                        <div class="border-2 text-center py-6 px-8 rounded-lg shadow-lg">
+                            <i class="fa-solid fa-rocket text-4xl" ></i>
+                            <h3 class="text-2xl font-bold my-3">Feature 1</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus odio tempore assumenda blanditiis magni. Neque quae suscipit omnis culpa eos tempora, qui aperiam non officia nobis ut vel, fuga ratione.</p>
+                            <button class="bg-violet-500 px-3 py-5 rounded text-white mt-3 w-full">More Info</button>
+
+                        </div>
+                    </div>
                 </div>
 
-            </div>
+            </section>
+            <section>
+                <div class="md-w-[80%] mx-auto">
+                    <h2 class="text-center font-bold my-8 text-3xl">Our Services</h2>">
+                    <div class="border-2 border-red-500 grid-cols-12">
+                        <div class="border-2 border-green-500 col-span-4">
+                            <h1>image here</h1>
 
-        </section>
-    </article>
+                        </div>
+                        <div class="border-2 border-blue-500 col-span-8">
+                            <h1>content here</h1>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+        </article>
 
-   </main>
-   <footer>
+    </main>
+    <footer>
 
 
-   </footer>
-    
+    </footer>
+
 </body>
+
 </html>
